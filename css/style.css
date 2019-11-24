@@ -38,7 +38,9 @@ html, body {
 
 .container {
     max-width:960px;
+    height: 600px;
     margin-top: 50px;
+    margin-left: 375px;
     padding: 20px;
 }
 
@@ -73,9 +75,9 @@ textarea {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0px;
     height: 20px;
 }
