@@ -37,6 +37,7 @@ html, body {
 
 
 .container {
+    max-width:960px;
     margin-top: 50px;
     padding: 20px;
 }
@@ -59,6 +60,16 @@ textarea {
     font-size: x-small;
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
+}
+
+.card-text {
+    position: relative;
+    word-wrap: none;
+    min-width: 50px;
+    max-width: 200px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 70%;
 }
 
 footer {
